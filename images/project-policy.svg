@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 520 300" role="img" aria-labelledby="title">
+  <title id="title">Policy learning thumbnail</title>
+  <rect width="520" height="300" fill="#f0f4f2"/>
+  <rect x="70" y="80" width="122" height="142" rx="12" fill="#8aa0a6"/>
+  <rect x="214" y="80" width="122" height="142" rx="12" fill="#c7d2d4"/>
+  <rect x="358" y="80" width="92" height="142" rx="12" fill="#b98b53"/>
+  <path d="M126 151h288" stroke="#3e5961" stroke-width="12" stroke-linecap="round"/>
+  <path d="M391 122l39 29-39 29" fill="none" stroke="#3e5961" stroke-width="12" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="130" cy="151" r="26" fill="#2f5967"/>
+  <circle cx="272" cy="151" r="22" fill="#d9a230"/>
+</svg>

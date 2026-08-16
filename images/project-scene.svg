@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 520 300" role="img" aria-labelledby="title">
+  <title id="title">Scene representation thumbnail</title>
+  <rect width="520" height="300" fill="#edf0f3"/>
+  <path d="M74 212l96-94 92 54 82-84 104 124z" fill="#8fa0ad"/>
+  <rect x="90" y="92" width="86" height="86" rx="9" fill="#c9794a"/>
+  <rect x="303" y="84" width="102" height="102" rx="12" fill="#6f8f7b"/>
+  <path d="M132 136h224M132 136l222-1M132 136l40 81M354 135l94 81" stroke="#435467" stroke-width="7" stroke-linecap="round" opacity=".65"/>
+</svg>
