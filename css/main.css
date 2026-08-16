@@ -1,4 +1,5 @@
 body {
+  --headshot-nudge: 16px;
   margin: auto;
   padding: 0;
   color: #000;
@@ -116,7 +117,7 @@ div.content a:hover div.text {
 
 .heading {
   display: grid;
-  grid-template-columns: 210px minmax(0, 1fr);
+  grid-template-columns: calc(210px + var(--headshot-nudge)) minmax(0, 1fr);
   column-gap: 35px;
   row-gap: 20px;
   align-items: center;
@@ -128,8 +129,8 @@ div.content a:hover div.text {
 
 .heading .img {
   grid-column: 1;
-  width: 210px;
-  padding: 20px 0;
+  width: calc(210px + var(--headshot-nudge));
+  padding: 20px 0 20px var(--headshot-nudge);
   max-width: none;
 }
 
@@ -336,7 +337,7 @@ div.content a:hover div.text {
   }
 
   .heading .img {
-    padding: 20px 0;
+    padding: 20px 0 20px var(--headshot-nudge);
   }
 
   .publication .img {
@@ -393,7 +394,7 @@ div.content a:hover div.text {
 
 @media only screen and (min-width: 600px) {
   .heading .img {
-    padding: 20px 0;
+    padding: 20px 0 20px var(--headshot-nudge);
   }
 
   .heading .info {
