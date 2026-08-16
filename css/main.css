@@ -116,7 +116,7 @@ div.content a:hover div.text {
 .heading {
   display: grid;
   grid-template-columns: 200px minmax(0, 1fr);
-  column-gap: 35px;
+  column-gap: 22px;
   row-gap: 20px;
   align-items: center;
   text-align: left;
