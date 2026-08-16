@@ -373,12 +373,16 @@ div.content a:hover div.text {
   .content,
   .publication {
     padding-top: 0;
-    padding-bottom: 7px;
+    padding-bottom: 4px;
+  }
+
+  .content {
+    margin-bottom: 4px;
   }
 
   .updates {
-    margin-top: 10px;
-    padding-top: 11px;
+    margin-top: 6px;
+    padding-top: 9px;
   }
 
   .updates h2 {
@@ -392,8 +396,8 @@ div.content a:hover div.text {
   }
 
   .highlights {
-    margin-top: 16px;
-    padding-top: 13px;
+    margin-top: 6px;
+    padding-top: 9px;
   }
 
   .highlights h2 {
@@ -413,8 +417,8 @@ div.content a:hover div.text {
   }
 
   .miscellaneous {
-    margin-top: 16px;
-    padding-top: 13px;
+    margin-top: 6px;
+    padding-top: 9px;
   }
 
   .miscellaneous h2 {
