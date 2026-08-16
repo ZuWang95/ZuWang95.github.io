@@ -321,14 +321,13 @@ div.content a:hover div.text {
 }
 
 .anchor {
-  border-top: 50px solid transparent;
-  margin-top: -50px;
+  scroll-margin-top: 50px;
 }
 
 @media only screen and (max-width: 599px) {
   body {
-    font-size: 82%;
-    line-height: 1.62;
+    font-size: 14.4px;
+    line-height: 1.66;
   }
 
   .container {
@@ -341,7 +340,7 @@ div.content a:hover div.text {
 
   .heading {
     display: block;
-    margin-bottom: 4px;
+    margin-bottom: 0;
   }
 
   .heading .img {
@@ -354,12 +353,13 @@ div.content a:hover div.text {
   }
 
   .heading .info {
-    margin-bottom: 14px;
+    margin-bottom: 22px;
   }
 
   .bio p {
-    line-height: 1.65;
-    margin-bottom: 0.78em;
+    font-size: 1em;
+    line-height: 1.7;
+    margin-bottom: 0.85em;
   }
 
   .publication .img {
@@ -377,8 +377,8 @@ div.content a:hover div.text {
   }
 
   .updates {
-    margin-top: 16px;
-    padding-top: 13px;
+    margin-top: 10px;
+    padding-top: 11px;
   }
 
   .updates h2 {
@@ -388,7 +388,7 @@ div.content a:hover div.text {
 
   .updates p {
     font-size: 1em;
-    line-height: 1.72;
+    line-height: 1.7;
   }
 
   .highlights {
