@@ -327,15 +327,39 @@ div.content a:hover div.text {
 
 @media only screen and (max-width: 599px) {
   body {
-    font-size: 80%;
+    font-size: 82%;
+    line-height: 1.62;
+  }
+
+  .container {
+    width: min(calc(100% - 34px), 760px);
+  }
+
+  .body {
+    margin-top: 14px;
   }
 
   .heading {
     display: block;
+    margin-bottom: 4px;
   }
 
   .heading .img {
-    padding: 20px 0;
+    width: 170px;
+    padding: 14px 0 12px;
+  }
+
+  .heading .img img {
+    width: 170px;
+  }
+
+  .heading .info {
+    margin-bottom: 14px;
+  }
+
+  .bio p {
+    line-height: 1.65;
+    margin-bottom: 0.78em;
   }
 
   .publication .img {
@@ -349,29 +373,37 @@ div.content a:hover div.text {
   .content,
   .publication {
     padding-top: 0;
-    padding-bottom: 10px;
+    padding-bottom: 7px;
   }
 
   .updates {
-    margin-top: 18px;
-    padding-top: 16px;
+    margin-top: 16px;
+    padding-top: 13px;
   }
 
   .updates h2 {
     font-size: 1.3em;
+    margin-bottom: 0.45em;
   }
 
   .updates p {
     font-size: 1em;
+    line-height: 1.72;
   }
 
   .highlights {
-    margin-top: 18px;
-    padding-top: 16px;
+    margin-top: 16px;
+    padding-top: 13px;
   }
 
   .highlights h2 {
     font-size: 1.3em;
+    margin-bottom: 0.3em;
+  }
+
+  .highlight-note {
+    line-height: 1.6;
+    margin-bottom: 0.8em;
   }
 
   .video-grid {
@@ -381,12 +413,18 @@ div.content a:hover div.text {
   }
 
   .miscellaneous {
-    margin-top: 18px;
-    padding-top: 16px;
+    margin-top: 16px;
+    padding-top: 13px;
   }
 
   .miscellaneous h2 {
     font-size: 1.3em;
+    margin-bottom: 0.45em;
+  }
+
+  .miscellaneous p {
+    line-height: 1.65;
+    margin-bottom: 0.78em;
   }
 }
 
