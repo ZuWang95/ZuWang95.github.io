@@ -1,5 +1,4 @@
 body {
-  --headshot-nudge: 16px;
   margin: auto;
   padding: 0;
   color: #000;
@@ -94,7 +93,6 @@ div.content a:hover div.text {
   min-width: 0;
 }
 
-.container,
 .content {
   width: 100%;
 }
@@ -117,7 +115,7 @@ div.content a:hover div.text {
 
 .heading {
   display: grid;
-  grid-template-columns: calc(210px + var(--headshot-nudge)) minmax(0, 1fr);
+  grid-template-columns: 200px minmax(0, 1fr);
   column-gap: 35px;
   row-gap: 20px;
   align-items: center;
@@ -129,8 +127,8 @@ div.content a:hover div.text {
 
 .heading .img {
   grid-column: 1;
-  width: calc(210px + var(--headshot-nudge));
-  padding: 20px 0 20px var(--headshot-nudge);
+  width: 200px;
+  padding: 20px 0;
   max-width: none;
 }
 
@@ -337,7 +335,7 @@ div.content a:hover div.text {
   }
 
   .heading .img {
-    padding: 20px 0 20px var(--headshot-nudge);
+    padding: 20px 0;
   }
 
   .publication .img {
@@ -394,7 +392,7 @@ div.content a:hover div.text {
 
 @media only screen and (min-width: 600px) {
   .heading .img {
-    padding: 20px 0 20px var(--headshot-nudge);
+    padding: 20px 0;
   }
 
   .heading .info {
